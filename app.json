@@ -1,4 +1,37 @@
 {
-  "name": "spanish_holiday_rentals",
-  "slug": "spanish_holiday_rentals"
+  "expo": {
+    "name": "spanish_holiday_rentals",
+    "slug": "spanish_holiday_rentals",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "newArchitectureEnabled": true,
+      "bundleIdentifier": "com.example.mynewarchapp"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "newArchitectureEnabled": true,
+      "package": "com.example.mynewarchapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "jsEngine": "hermes"
+  }
 }

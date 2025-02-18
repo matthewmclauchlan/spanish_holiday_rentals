@@ -1,18 +1,15 @@
-const { withExpo } = require("@expo/next-adapter");
+const { withExpo } = require('@expo/next-adapter');
 
-/** @type {import('next').NextConfig} */
-const nextConfig = withExpo({
-  reactStrictMode: true,
-  swcMinify: true,
-  transpilePackages: [
-    "react-native",
-    "react-native-web",
-    "expo",
-    // Add more React Native / Expo packages here...
-  ],
+module.exports = withExpo({
   experimental: {
-    forceSwcTransforms: true,
+    transpilePackages: [
+      // NOTE: Even though `react-native` is never used in Next.js,
+      // you need to list `react-native` because `react-native-web`
+      // is aliased to `react-native`.
+      'react-native',
+      'react-native-web',
+      'expo',
+      // Add more React Native/Expo packages here...
+    ],
   },
 });
-
-module.exports = nextConfig;

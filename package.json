@@ -1,23 +1,27 @@
 {
   "dependencies": {
     "expo": "^52.0.16",
+    "nativewind": "^4.1.23",
     "next": "~14.0.4",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native": "0.76.3",
-    "react-native-web": "~0.19.6"
+    "react-native-web": "~0.19.6",
+    "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@expo/next-adapter": "^6.0.0"
   },
   "scripts": {
-    "start": "next dev",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web",
-    "build": "next build"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "android": "expo start --android",
+  "ios": "expo start --ios",
+  "expo-web": "expo start --web"
+},
+
   "name": "spanish_holiday_rentals",
   "version": "1.0.0",
   "private": true
