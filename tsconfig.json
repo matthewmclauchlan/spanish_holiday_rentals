@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "node_modules/*"
+      ]
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "outDir": "build",
+    "incremental": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "pages/**/*",
+    "components/**/*"
+  ],
+  "extends": "expo/tsconfig.base"
+}

@@ -1,21 +1,13 @@
-import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+// pages/index.js
+import React from 'react';
+import HomePage from '../components/HomePage';
 
-export default function App() {
+export default function Home() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.text}> 👋👋👋</Text>
-    </View>
+    <HomePage 
+      title="Welcome to My App!" 
+      message="This is the Next.js (web) version."
+      backgroundColor="#f2f2f2"
+    />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center",
-  },
-  text: {
-    fontSize: 16,
-  },
-});

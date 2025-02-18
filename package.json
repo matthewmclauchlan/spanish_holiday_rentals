@@ -1,27 +1,43 @@
 {
   "dependencies": {
-    "expo": "^52.0.16",
+    "appwrite": "^17.0.0",
+    "expo": "^52.0.35",
+    "expo-image-picker": "^16.0.6",
+    "expo-linking": "^7.0.5",
+    "expo-splash-screen": "^0.29.22",
+    "expo-web-browser": "^14.0.2",
+    "fbjs": "^3.0.5",
     "nativewind": "^4.1.23",
-    "next": "~14.0.4",
+    "next": "^15.1.7",
+    "next-transpile-modules": "^10.0.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-native": "0.76.3",
+    "react-native-appwrite": "^0.7.0",
+    "react-native-gesture-handler": "^2.23.1",
+    "react-native-safe-area-context": "^5.2.0",
     "react-native-web": "~0.19.6",
+    "spanish_holiday_rentals": "file:",
     "tailwindcss": "^3.4.17"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
-    "@expo/next-adapter": "^6.0.0"
+    "@babel/preset-typescript": "^7.26.0",
+    "@expo/next-adapter": "^6.0.0",
+    "@types/react": "^18.3.18",
+    "babel-loader": "^9.2.1",
+    "babel-preset-expo": "^12.0.8",
+    "file-loader": "^6.2.0",
+    "typescript": "^5.3.3"
   },
   "scripts": {
-  "dev": "next dev",
-  "build": "next build",
-  "start": "next start",
-  "android": "expo start --android",
-  "ios": "expo start --ios",
-  "expo-web": "expo start --web"
-},
-
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "expo-web": "expo start --web"
+  },
   "name": "spanish_holiday_rentals",
   "version": "1.0.0",
   "private": true
